@@ -1,4 +1,4 @@
-.heading {
+.heading-major {
     text-align: center;
     font-size: 36px;
     color: green;
@@ -6,8 +6,13 @@
 }
 
 .picture {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-minor {
+    text-align: center;
+    color: gold;
+    background-color: black;
 }
